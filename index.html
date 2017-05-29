@@ -19,16 +19,28 @@
   <header id="cabecera">
     <h1>Este es el título principal del sitio web</h1>
   </header>
-  <nav id="menu">
-    <ul>
-      <li><span class="icon-home"></span>principal</li>
-      <li>fotos</li>
-      <li>videos</li>
-      <li>contacto</li>
-      <li><span class="icon-brand71 font-blue"></span>Facebook</li>
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Mi Web Personal</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Inicio</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sobre Mí
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Intereses</a></li>
+          <li><a href="#">Pasatiempos</a></li>
+          <li><spam class="icon-brand71 font-blue"></spam>Facebook</li>
+        </ul>
+      </li>
+      <li><a href="#">Información de contácto</a></li>
     </ul>
-  </nav>
-  <section id="seccion">
+    <button class="btn btn-danger navbar-btn">Cajamarca</button>
+  </div>
+</nav>
+  <section id="seccion1">
     <article>
       <header>
         <hgroup>
