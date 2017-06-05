@@ -21,8 +21,8 @@
 		</style>
 		
 img{
-	width:80%;
-	max-width:800px;
+	position: absolute;
+	max-width:100%;
 	height: auto;
 }
 
