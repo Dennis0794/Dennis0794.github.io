@@ -5,8 +5,7 @@
 	}
 	
 img{
-	width:100%;
-	max-width:900px;
+	max-width:100%;
 	height: auto;
 }
 
@@ -72,11 +71,11 @@ h2{
 	border-top: 2px solid #999999;
 }
 
-font-blue{
+font1-blue{
 	background:white;
 }
 
-article{
+article1{
 	background: #fffbcc;
 	border: 3px solid #999999;
 	padding: 20px;
@@ -84,6 +83,6 @@ article{
 	border-radius:20px 0px 30px 50px;
 }
 
-article footer{
+article1 footer{
 	text-align: right;
 }
